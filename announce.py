@@ -5,7 +5,7 @@ import asyncio
 import time
 from discord.ext.commands import has_permissions
 
-client = commands.Bot(command_prefix = "+")
+client = commands.Client(command_prefix = "+")
 client.remove_command("help")
 
 @client.event
